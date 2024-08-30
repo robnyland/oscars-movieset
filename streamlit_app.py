@@ -6,7 +6,7 @@ import plotly.express as px
 # Load the dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv('the_oscar_award.csv')
+    df = pd.read_csv('oscars_data.csv')
     return df
 
 df = load_data()
